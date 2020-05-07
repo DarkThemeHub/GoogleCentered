@@ -14,6 +14,7 @@ Show your support and hit that Star :P
 [Regex Test](REPLACE-WITH-REGEX-TEST-LINK)
 
 <hr>
+<!-- 
 
 ## Install the theme
 
@@ -26,6 +27,8 @@ Show your support and hit that Star :P
 ##### Step 2
 
 [![image](https://img.shields.io/badge/Install/Update%20directly%20with-Stylus-116b59.svg?longCache=true&style=for-the-badge)](https://raw.githubusercontent.com/DarkThemeHub/GoogleCentered/master/Generated/github.user.styl)
+
+
 
 <hr>
 
