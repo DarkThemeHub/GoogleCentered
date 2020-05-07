@@ -1,15 +1,15 @@
-[![image](https://img.shields.io/github/v/release/Darkthemehub/<REPLACE-WITH-REPO-NAME>?style=flat-square)](https://github.com/DarkThemeHub/<REPLACE-WITH-REPO-NAME>/releases/latest)
-[![image](https://img.shields.io/github/release-date/Darkthemehub/<REPLACE-WITH-REPO-NAME>?color=%23DD7A00&label=Last%20updated&style=flat-square)](https://github.com/DarkThemeHub/<REPLACE-WITH-REPO-NAME>/releases)
+[![image](https://img.shields.io/github/v/release/Darkthemehub/GoogleCentered?style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/releases/latest)
+[![image](https://img.shields.io/github/release-date/Darkthemehub/GoogleCentered?color=%23DD7A00&label=Last%20updated&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/releases)
 [![image](https://img.shields.io/github/contributors/DarkThemehub/<REPLACE-WITH-REPO-NAME>?style=flat-square)](https://github.com/DarkThemeHub/GithubDarkTheme/graphs/contributors)
-[![image](https://img.shields.io/github/size/Darkthemehub/<REPLACE-WITH-REPO-NAME>/Generated/github.user.styl?color=purple&label=Theme%20size&style=flat-square)](https://github.com/DarkThemeHub/<REPLACE-WITH-REPO-NAME>/blob/master/Generated/github.user.styl)
+[![image](https://img.shields.io/github/size/Darkthemehub/GoogleCentered/Generated/github.user.styl?color=purple&label=Theme%20size&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/blob/master/Generated/github.user.styl)
 
-# <REPLACE-WITH-REPO-NAME>
+# Google Centered
 
 Show your support and hit that Star :P
 
 [Join the discord](https://discord.gg/pSs9YYn) to stay up to date with releases and submit other suggestions
 
-[How to Contribute](https://github.com/DarkThemeHub/<REPLACE-WITH-REPO-NAME>/blob/master/CONTRIBUTING.md)
+[How to Contribute](https://github.com/DarkThemeHub/GoogleCentered/blob/master/CONTRIBUTING.md)
 
 [Regex Test](REPLACE-WITH-REGEX-TEST-LINK)
 
@@ -25,7 +25,7 @@ Show your support and hit that Star :P
 
 ##### Step 2
 
-[![image](https://img.shields.io/badge/Install/Update%20directly%20with-Stylus-116b59.svg?longCache=true&style=for-the-badge)](https://raw.githubusercontent.com/DarkThemeHub/<REPLACE-WITH-REPO-NAME>/master/Generated/github.user.styl)
+[![image](https://img.shields.io/badge/Install/Update%20directly%20with-Stylus-116b59.svg?longCache=true&style=for-the-badge)](https://raw.githubusercontent.com/DarkThemeHub/GoogleCentered/master/Generated/github.user.styl)
 
 <hr>
 
