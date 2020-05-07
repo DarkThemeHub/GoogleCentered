@@ -2,7 +2,7 @@
 @name         <ThemeName>
 @namespace    github.com/DarkThemeHub/GoogleDarkTheme
 @version      <Version>
-@description  Dark theme for google.
+@description  Google Search Engine Centered For Big Screens.
 @author       DarkThemeHub
 @homepageURL  https://github.com/DarkThemeHub/GoogleCentered
 @supportURL   https://github.com/DarkThemeHub/GoogleCentered/issues
