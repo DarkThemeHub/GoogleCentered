@@ -4,7 +4,7 @@
 @version      <Version>
 @description  Dark theme for google.
 @author       DarkThemeHub
-@homepageURL  https://github.com/DarkThemeHub/<REPLACE-WITH-REPO-NAME>
-@supportURL   https://github.com/DarkThemeHub/<REPLACE-WITH-REPO-NAME>/issues
-@updateURL    https://raw.githubusercontent.com/DarkThemeHub/<REPLACE-WITH-REPO-NAME>/master/Generated/github.user.styl
+@homepageURL  https://github.com/DarkThemeHub/GoogleCentered
+@supportURL   https://github.com/DarkThemeHub/GoogleCentered/issues
+@updateURL    https://raw.githubusercontent.com/DarkThemeHub/GoogleCentered/master/Generated/github.user.styl
 ==/UserStyle== */
