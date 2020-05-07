@@ -1,1 +1,1 @@
-<REPLACE-WITH-REPO-NAME>();
+GoogleCentered();
