@@ -1,3 +1,148 @@
 html {
-    background-color: #25272a !important;
+    margin: auto;
+}
+
+/* center page */
+@media only screen and (max-width: 4000px) {
+    html {
+        max-width: 40%;
+    }
+
+    #searchform {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 3700px) {
+    html {
+        max-width: 45%;
+    }
+
+    #searchform {
+        width: 48vw;
+    }
+}
+
+@media only screen and (max-width: 3500px) {
+    html {
+        max-width: 47%;
+    }
+
+    #searchform {
+        width: 48vw;
+    }
+}
+
+@media only screen and (max-width: 3000px) {
+    html {
+        max-width: 55%;
+    }
+
+    #searchform {
+        width: 54vw;
+    }
+}
+
+@media only screen and (max-width: 2900px) {
+    html {
+        max-width: 55%;
+    }
+
+    #searchform {
+        width: 55vw;
+    }
+}
+
+@media only screen and (max-width: 2600px) {
+    html {
+        max-width: 70%;
+    }
+
+    #searchform {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+    html {
+        max-width: 85%;
+    }
+
+    #searchform {
+        width: 84vw;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    html {
+        max-width: 90%;
+    }
+
+    #searchform {
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    html {
+        max-width: 100%;
+    }
+
+    #searchform {
+        width: 98vw;
+    }
+}
+
+
+@media only screen and (max-width: 1500px) {
+    html {
+        max-width: 100%;
+    }
+    #searchform {
+        width: 98vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+    html {
+        max-width: 100%;
+    }
+
+    #searchform {
+        width: 98vw;
+    }
+}
+#cnt {
+    width: 100%;
+    margin: auto;
+}
+.mw {
+    width: 100%;
+    max-width: unset !important;
+    margin: auto;
+}
+#bcenter {
+    width: 0px;
+}
+
+div#rcnt {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 50% auto;
+}
+
+div#rhs {
+    margin: unset !important;
+    width: 100%;
+}
+
+#center_col {
+    width: 100%;
+    margin: unset !important;
+}
+
+.kno-ftr {
+    margin-right: 0px;
 }
