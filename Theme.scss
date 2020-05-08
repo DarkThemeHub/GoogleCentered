@@ -2,7 +2,7 @@ html {
     margin: auto;
 }
 
-@function getvalInRange($min, $max, $t-param) {
+@function getValInRange($min, $max, $t-param) {
     $val: (($t-param - 0) / (1 - 0) * ($max - $min)) + $min;
     @return $val;
 }
@@ -12,32 +12,26 @@ html {
 }
 
 $min-screen-size: 1700;
-$max-screen-size: 4000;
+$max-screen-size: 3200;
 $i: $max-screen-size;
 $minWidth: 60;
 $maxWidth: 98;
+
 /* center page */
+@media only screen and (max-width: 12000px) and (min-width: #{$max-screen-size}px) {
+    html {
+        max-width: 50%;
+    }
+
+    #searchform {
+        width: 50vw;
+    }
+}
+
 @while $i >= $min-screen-size {
     @if ($i <= 2000) {
-        $i-T-Param: getNormalizedVal($i, $min-screen-size, $max-screen-size);
-        @debug $i;
-        @debug $i-T-Param;
-
-        @media only screen and (max-width: #{$i}px) and (min-width: $i - 100px) {
-            html {
-                max-width: getvalInRange(80, 98, $i-T-Param) * 1%;
-            }
-
-            #searchform {
-                width: getvalInRange(80, 98, $i-T-Param) * 1vw;
-            }
-        }
-    } @else if $i <= 2800 {
-        $i-T-Param: getNormalizedVal($i, $min-screen-size, $max-screen-size);
-        @debug $i;
-        @debug $i-T-Param;
-
-        $width-percentage: getvalInRange(60, 80, $i-T-Param);
+        $i-T-Param: getNormalizedVal($i, $min-screen-size, 2000);
+        $width-percentage: getValInRange(80, 98, $i-T-Param);
         @media only screen and (max-width: #{$i}px) and (min-width: $i - 100px) {
             html {
                 max-width: $width-percentage * 1%;
@@ -47,18 +41,17 @@ $maxWidth: 98;
                 width: $width-percentage * 1vw;
             }
         }
-    } @else {
-        $i-T-Param: getNormalizedVal($i, 3000, $max-screen-size);
-        @debug $i;
-        @debug $i-T-Param;
+    } @else if $i <= $max-screen-size {
+        $i-T-Param: getNormalizedVal($i, 2000, $max-screen-size);
 
+        $width-percentage: getValInRange(65, 50, $i-T-Param);
         @media only screen and (max-width: #{$i}px) and (min-width: $i - 100px) {
             html {
-                max-width: getvalInRange(50, 60, $i-T-Param) * 1%;
+                max-width: $width-percentage * 1%;
             }
 
             #searchform {
-                width: getvalInRange(50, 60, $i-T-Param) * 1vw;
+                width: $width-percentage * 1vw;
             }
         }
     }
