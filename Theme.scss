@@ -1,0 +1,100 @@
+html {
+    margin: auto;
+}
+
+@function getvalInRange($min, $max, $t-param) {
+    $val: (($t-param - 0) / (1 - 0) * ($max - $min)) + $min;
+    @return $val;
+}
+@function getNormalizedVal($currentVal, $min, $max) {
+    $val: ($currentVal - $min) / ($max - $min);
+    @return $val;
+}
+
+$min-screen-size: 1700;
+$max-screen-size: 4000;
+$i: $max-screen-size;
+$minWidth: 60;
+$maxWidth: 98;
+/* center page */
+@while $i >= $min-screen-size {
+    @if ($i <= 2000) {
+        $i-T-Param: getNormalizedVal($i, $min-screen-size, $max-screen-size);
+        @debug $i;
+        @debug $i-T-Param;
+
+        @media only screen and (max-width: #{$i}px) and (min-width: $i - 100px) {
+            html {
+                max-width: getvalInRange(80, 98, $i-T-Param) * 1%;
+            }
+
+            #searchform {
+                width: getvalInRange(80, 98, $i-T-Param) * 1vw;
+            }
+        }
+    } @else if $i <= 2800 {
+        $i-T-Param: getNormalizedVal($i, $min-screen-size, $max-screen-size);
+        @debug $i;
+        @debug $i-T-Param;
+
+        $width-percentage: getvalInRange(60, 80, $i-T-Param);
+        @media only screen and (max-width: #{$i}px) and (min-width: $i - 100px) {
+            html {
+                max-width: $width-percentage * 1%;
+            }
+
+            #searchform {
+                width: $width-percentage * 1vw;
+            }
+        }
+    } @else {
+        $i-T-Param: getNormalizedVal($i, 3000, $max-screen-size);
+        @debug $i;
+        @debug $i-T-Param;
+
+        @media only screen and (max-width: #{$i}px) and (min-width: $i - 100px) {
+            html {
+                max-width: getvalInRange(50, 60, $i-T-Param) * 1%;
+            }
+
+            #searchform {
+                width: getvalInRange(50, 60, $i-T-Param) * 1vw;
+            }
+        }
+    }
+
+    $i: $i - 100;
+}
+
+#cnt {
+    width: 100%;
+    margin: auto;
+}
+.mw {
+    width: 100%;
+    max-width: unset !important;
+    margin: auto;
+}
+#bcenter {
+    width: 0px;
+}
+
+div#rcnt {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 50% auto;
+}
+
+div#rhs {
+    margin: unset !important;
+    width: 100%;
+}
+
+#center_col {
+    width: 100%;
+    margin: unset !important;
+}
+
+.kno-ftr {
+    margin-right: 0px;
+}

@@ -1,0 +1,26 @@
+{
+    "name": "init",
+    "version": "1.0.0",
+    "description": "[![image](https://img.shields.io/github/v/release/Darkthemehub/GoogleCentered?style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/releases/latest)\r [![image](https://img.shields.io/github/release-date/Darkthemehub/GoogleCentered?color=%23DD7A00&label=Last%20updated&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/releases)\r [![image](https://img.shields.io/github/contributors/DarkThemehub/GoogleCentered?style=flat-square)](https://github.com/DarkThemeHub/GithubDarkTheme/graphs/contributors)\r [![image](https://img.shields.io/github/size/Darkthemehub/GoogleCentered/Generated/github.user.styl?color=purple&label=Theme%20size&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/blob/master/Generated/github.user.styl)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss": "node-sass --include-path scss Theme.scss Generated/Theme.css",
+        "start": "nodemon -e scss Theme.scss -x \"npm run scss\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DarkThemeHub/GoogleCentered.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DarkThemeHub/GoogleCentered/issues"
+    },
+    "homepage": "https://github.com/DarkThemeHub/GoogleCentered#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "nodemon": "^2.0.3",
+        "node-sass": "^4.14.1"
+    }
+}
