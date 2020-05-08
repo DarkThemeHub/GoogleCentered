@@ -7,7 +7,7 @@
 
 Hey! Also use this with [Google Dark Theme](https://github.com/DarkThemeHub/GoogleDarkTheme)!
 
-Support us by hitting that Star and show your friends :P
+Support us by hitting that Star and showing your friends :P
 
 [Join the discord](https://discord.gg/pSs9YYn) to stay up to date with releases and submit other suggestions
 
@@ -35,9 +35,9 @@ Support us by hitting that Star and show your friends :P
 
 # Join the DarkThemeHub Team
 
-DarkThemeHub's goal is to create an active dark theme community that create and maintain quality dark themes for websites devs use daily.
+DarkThemeHub's goal is to create an active dark theme community that maintain quality dark themes for websites frequently used by developers.
 
-Join the discord and message Snazzie.
+Join our discord and message Snazzie to sign up.
 
 Requirements:
 
