@@ -15,10 +15,12 @@ $min-screen-size: 1700;
 $max-screen-size: 3200;
 $i: $max-screen-size;
 $minWidth: 60;
-$maxWidth: 98;
+$maxWidth: 80;
+
+$max-handle-width: 12000px;
 
 /* center page */
-@media only screen and (max-width: 12000px) and (min-width: #{$max-screen-size}px) {
+@media only screen and (max-width: $max-handle-width) and (min-width: #{$max-screen-size}px) {
     html {
         max-width: 50%;
     }
@@ -31,7 +33,7 @@ $maxWidth: 98;
 @while $i >= $min-screen-size {
     @if ($i <= 2000) {
         $i-T-Param: getNormalizedVal($i, $min-screen-size, 2000);
-        $width-percentage: getValInRange(80, 98, $i-T-Param);
+        $width-percentage: getValInRange(80, 80, $i-T-Param);
         @media only screen and (max-width: #{$i}px) and (min-width: $i - 100px) {
             html {
                 max-width: $width-percentage * 1%;
@@ -59,35 +61,37 @@ $maxWidth: 98;
     $i: $i - 100;
 }
 
-#cnt {
-    width: 100%;
-    margin: auto;
-}
-.mw {
-    width: 100%;
-    max-width: unset !important;
-    margin: auto;
-}
-#bcenter {
-    width: 0px;
-}
+@media only screen and (max-width: $max-handle-width) and (min-width: #{$min-screen-size}px) {
+    #cnt {
+        width: 100%;
+        margin: auto;
+    }
+    .mw {
+        width: 100%;
+        max-width: unset !important;
+        margin: auto;
+    }
+    #bcenter {
+        width: 0px;
+    }
 
-div#rcnt {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto 55% 0 auto;
-}
+    div#rcnt {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto 55% 0 35% auto;
+    }
 
-div#rhs {
-    margin: unset !important;
-    width: 100%;
-}
+    div#rhs {
+        margin: unset !important;
+        width: 100%;
+    }
 
-#center_col {
-    width: 100%;
-    margin: unset !important;
-}
+    #center_col {
+        width: 100%;
+        margin: unset !important;
+    }
 
-.kno-ftr {
-    margin-right: 0px;
+    .kno-ftr {
+        margin-right: 0px;
+    }
 }
