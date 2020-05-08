@@ -19,7 +19,7 @@ Support us by hitting that Star and showing your friends :P
 
 ## Install the theme
 
-#### Tested On Screen resolutions
+#### Tested On following screen resolutions
  * 1080p
  * 1440p
 
