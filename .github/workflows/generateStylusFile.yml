@@ -14,7 +14,6 @@ jobs:
       with:
         node-version: '12.x'
     - run:  npm i | npm run scss
-      
     - name: Set up Python
       uses: actions/setup-python@v1
       with: 
