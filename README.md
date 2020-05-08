@@ -37,7 +37,7 @@ Support us by hitting that Star and show your friends :P
 
 DarkThemeHub's goal is to create an active dark theme community that maintain quality dark themes for websites frequently used by developers.
 
-Join the discord and message Snazzie.
+Join our discord and message Snazzie to sign up.
 
 Requirements:
 
