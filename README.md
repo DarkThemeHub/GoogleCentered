@@ -11,7 +11,7 @@ Show your support and hit that Star :P
 
 [How to Contribute](https://github.com/DarkThemeHub/GoogleCentered/blob/master/CONTRIBUTING.md)
 
-[Regex Test](REPLACE-WITH-REGEX-TEST-LINK)
+[Regex Test](https://regex101.com/r/4QIe2c/2)
 
 <hr>
 <!-- 
