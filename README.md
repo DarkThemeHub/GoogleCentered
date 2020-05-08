@@ -7,7 +7,7 @@
 
 Hey! Also use this with [Google Dark Theme](https://github.com/DarkThemeHub/GoogleDarkTheme)!
 
-Show your support and hit that Star :P
+Show your support and hit that Star, show your friends :P
 
 [Join the discord](https://discord.gg/pSs9YYn) to stay up to date with releases and submit other suggestions
 
