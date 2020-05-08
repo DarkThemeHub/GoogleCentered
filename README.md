@@ -5,7 +5,7 @@
 
 # Google Centered
 
-Hey! Also use this with Our [Google Dark Theme](https://github.com/DarkThemeHub/GoogleDarkTheme)!
+Hey! Also use this with [Google Dark Theme](https://github.com/DarkThemeHub/GoogleDarkTheme)!
 
 Show your support and hit that Star :P
 
