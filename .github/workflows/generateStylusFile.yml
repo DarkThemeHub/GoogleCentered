@@ -3,7 +3,7 @@ name: GenerateStylusFile
 on:
   release:
     branches: master
-    types: [published, unpublished, deleted]
+    types: [published, edit, unpublished, deleted]
 jobs:
   build:
     runs-on: ubuntu-latest
