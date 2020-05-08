@@ -5,6 +5,7 @@
 
 # Google Centered
 
+Hey! Also use this with Our [Google Dark Theme](https://github.com/DarkThemeHub/GoogleDarkTheme)!
 Show your support and hit that Star :P
 
 [Join the discord](https://discord.gg/pSs9YYn) to stay up to date with releases and submit other suggestions
@@ -47,6 +48,6 @@ Requirements:
 
 <hr>
 <table><tr><td>
-<INSERT-IMAGE-HERE>
+<img src="https://i.gyazo.com/13dda60b3145988387539a9c6b1195a9.png"/>
 </td></tr></table>
 <hr>
