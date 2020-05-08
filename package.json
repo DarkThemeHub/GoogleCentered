@@ -1,6 +1,6 @@
 {
     "name": "init",
-    "version": "1.0.0",
+    "version": "",
     "description": "[![image](https://img.shields.io/github/v/release/Darkthemehub/GoogleCentered?style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/releases/latest)\r [![image](https://img.shields.io/github/release-date/Darkthemehub/GoogleCentered?color=%23DD7A00&label=Last%20updated&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/releases)\r [![image](https://img.shields.io/github/contributors/DarkThemehub/GoogleCentered?style=flat-square)](https://github.com/DarkThemeHub/GithubDarkTheme/graphs/contributors)\r [![image](https://img.shields.io/github/size/Darkthemehub/GoogleCentered/Generated/github.user.styl?color=purple&label=Theme%20size&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/blob/master/Generated/github.user.styl)",
     "main": "index.js",
     "scripts": {
@@ -12,12 +12,12 @@
         "type": "git",
         "url": "git+https://github.com/DarkThemeHub/GoogleCentered.git"
     },
-    "author": "",
-    "license": "ISC",
+    "author": "DarkThemeHub",
+    "license": "",
     "bugs": {
         "url": "https://github.com/DarkThemeHub/GoogleCentered/issues"
     },
-    "homepage": "https://github.com/DarkThemeHub/GoogleCentered#readme",
+    "homepage": "https://github.com/DarkThemeHub/GoogleCentered",
     "dependencies": {},
     "devDependencies": {
         "nodemon": "^2.0.3",
