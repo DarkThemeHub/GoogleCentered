@@ -14,7 +14,6 @@ Show your support and hit that Star :P
 [Regex Test](https://regex101.com/r/4QIe2c/2)
 
 <hr>
-<!-- 
 
 ## Install the theme
 
