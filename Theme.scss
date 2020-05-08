@@ -82,7 +82,7 @@ $maxWidth: 98;
 div#rcnt {
     width: 100%;
     display: grid;
-    grid-template-columns: auto 50% auto;
+    grid-template-columns: auto 55% 0 auto;
 }
 
 div#rhs {
