@@ -1,13 +1,13 @@
 [![image](https://img.shields.io/github/v/release/Darkthemehub/GoogleCentered?style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/releases/latest)
 [![image](https://img.shields.io/github/release-date/Darkthemehub/GoogleCentered?color=%23DD7A00&label=Last%20updated&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/releases)
-[![image](https://img.shields.io/github/contributors/DarkThemehub/GoogleCentered?style=flat-square)](https://github.com/DarkThemeHub/GithubDarkTheme/graphs/contributors)
+[![image](https://img.shields.io/github/contributors/DarkThemehub/GoogleCentered?style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/graphs/contributors)
 [![image](https://img.shields.io/github/size/Darkthemehub/GoogleCentered/Generated/github.user.styl?color=purple&label=Theme%20size&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/blob/master/Generated/github.user.styl)
 
 # Google Centered
 
-Hey! Also use this with Our [Google Dark Theme](https://github.com/DarkThemeHub/GoogleDarkTheme)!
+Hey! Also use this with [Google Dark Theme](https://github.com/DarkThemeHub/GoogleDarkTheme)!
 
-Show your support and hit that Star :P
+Support us by hitting that Star and show your friends :P
 
 [Join the discord](https://discord.gg/pSs9YYn) to stay up to date with releases and submit other suggestions
 
@@ -16,7 +16,6 @@ Show your support and hit that Star :P
 [Regex Test](https://regex101.com/r/4QIe2c/2)
 
 <hr>
-<!-- 
 
 ## Install the theme
 
@@ -50,5 +49,6 @@ Requirements:
 <hr>
 <table><tr><td>
 <img src="https://i.gyazo.com/13dda60b3145988387539a9c6b1195a9.png"/>
+<img src="https://i.gyazo.com/4cef96e88ebcd162c4d9da2e811e7f6d.jpg"/>
 </td></tr></table>
 <hr>

@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name         GoogleCentered();
+@namespace    github.com/DarkThemeHub/GoogleDarkTheme
+@version      1.0.0
+@description  Google Search Engine Centered For Big Screens.
+@author       DarkThemeHub
+@homepageURL  https://github.com/DarkThemeHub/GoogleCentered
+@supportURL   https://github.com/DarkThemeHub/GoogleCentered/issues
+@updateURL    https://raw.githubusercontent.com/DarkThemeHub/GoogleCentered/master/Generated/github.user.styl
+==/UserStyle== */
+
+@-moz-document regexp("^https?:\/\/www\.google((\..{1,3}){1,2})\/(search\?)(?!flights|maps)(?!.*&tbm=(shop|fin|lcl)&).*") {
 html {
   margin: auto; }
 
@@ -161,7 +173,7 @@ html {
 div#rcnt {
   width: 100%;
   display: grid;
-  grid-template-columns: auto 50% auto; }
+  grid-template-columns: auto 55% 0 auto; }
 
 div#rhs {
   margin: unset !important;
@@ -173,3 +185,5 @@ div#rhs {
 
 .kno-ftr {
   margin-right: 0px; }
+
+}
