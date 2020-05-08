@@ -15,7 +15,7 @@ header = headerFile.read()
 urlRegex = open(baseDir + "UrlRegex.txt", "r").read().rstrip()
 preStyle = "@-moz-document regexp(\"<URL_REGEX>\") {"
 
-themeCss = open(baseDir + "Theme.css", "r",
+themeCss = open(baseDir + "ScssOutput/Theme.css", "r",
                 encoding="ASCII", errors="ignore").read()
 endStyle = "}"
 

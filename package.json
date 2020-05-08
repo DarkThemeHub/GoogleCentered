@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "scss": "node-sass --include-path scss Theme.scss Generated/Theme.css",
+        "scss": "node-sass --include-path scss Theme.scss ScssOutput/Theme.css",
         "start": "nodemon -e scss Theme.scss -x \"npm run scss\""
     },
     "repository": {
