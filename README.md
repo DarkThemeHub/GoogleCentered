@@ -19,10 +19,6 @@ Support us by hitting that Star and showing your friends :P
 
 ## Install the theme
 
-#### Tested On following screen resolutions
- * 1080p
- * 1440p
-
 ##### Step 1 (if not already installed browser extension)
 
 [![image](https://img.shields.io/badge/Install-Stylus%20Chrome%20Extension-116b59.svg?longCache=true&style=for-the-badge)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/)
@@ -33,7 +29,9 @@ Support us by hitting that Star and showing your friends :P
 
 [![image](https://img.shields.io/badge/Install/Update%20directly%20with-Stylus-116b59.svg?longCache=true&style=for-the-badge)](https://raw.githubusercontent.com/DarkThemeHub/GoogleCentered/master/Generated/github.user.styl)
 
-
+#### Tested On following screen resolutions
+ * 1080p
+ * 1440p
 
 <hr>
 
