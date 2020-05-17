@@ -19,7 +19,7 @@ Support us by hitting that Star and showing your friends :P
 
 ## Install the theme
 
-##### Step 1 (if not already installed browser extension)
+##### Step 1 (if not already installed Stylus browser extension)
 
 [![image](https://img.shields.io/badge/Install-Stylus%20Chrome%20Extension-116b59.svg?longCache=true&style=for-the-badge)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/)
 
