@@ -3,7 +3,7 @@ import re
 import shutil
 baseDir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 # normalize baseDir between github action or dev environment
-if baseDir.startswith("/home/runner/work/GithubDarkTheme"):
+if baseDir.startswith("/home/runner/work"):
     baseDir = ""
 else:
     baseDir = baseDir + "/"
@@ -19,8 +19,8 @@ themeCss = open(baseDir + "ScssOutput/Theme.css", "r",
                 encoding="ASCII", errors="ignore").read()
 endStyle = "}"
 
-# update version in header 
-newHeader = re.sub("<Version>", newVersion , header)
+# update version in header
+newHeader = re.sub("<Version>", newVersion, header)
 newHeader = re.sub("<ThemeName>", "Test-" + themeName, newHeader)
 newPreStyle = re.sub("<URL_REGEX>", urlRegex, preStyle)
 
