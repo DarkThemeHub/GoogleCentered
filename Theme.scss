@@ -2,6 +2,10 @@ html {
     margin: auto;
 }
 
+.islrc {
+	width: auto !important;
+}
+
 @function getValInRange($min, $max, $t-param) {
     $val: (($t-param - 0) / (1 - 0) * ($max - $min)) + $min;
     @return $val;
