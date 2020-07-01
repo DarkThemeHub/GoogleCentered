@@ -2,7 +2,7 @@ html {
   margin: auto; }
 
 .islrc {
-  width: auto !important; }
+  width: 0px; }
 
 /* center page */
 @media only screen and (max-width: 12000px) and (min-width: 3200px) {

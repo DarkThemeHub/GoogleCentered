@@ -3,7 +3,7 @@ html {
 }
 
 .islrc {
-	width: auto !important;
+	width: 0px;
 }
 
 @function getValInRange($min, $max, $t-param) {
