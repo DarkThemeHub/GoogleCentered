@@ -2,14 +2,16 @@ html {
     margin: auto;
 }
 
-.islrc {
-	width: 0px;
+.islrc,
+.D6j0vc {
+    width: 100% !important;
 }
 
 @function getValInRange($min, $max, $t-param) {
     $val: (($t-param - 0) / (1 - 0) * ($max - $min)) + $min;
     @return $val;
 }
+
 @function getNormalizedVal($currentVal, $min, $max) {
     $val: ($currentVal - $min) / ($max - $min);
     @return $val;
@@ -38,6 +40,7 @@ $max-handle-width: 12000px;
     @if ($i <= 2000) {
         $i-T-Param: getNormalizedVal($i, $min-screen-size, 2000);
         $width-percentage: getValInRange(80, 80, $i-T-Param);
+
         @media only screen and (max-width: #{$i}px) and (min-width: $i - 100px) {
             html {
                 max-width: $width-percentage * 1%;
@@ -51,6 +54,7 @@ $max-handle-width: 12000px;
         $i-T-Param: getNormalizedVal($i, 2000, $max-screen-size);
 
         $width-percentage: getValInRange(65, 50, $i-T-Param);
+
         @media only screen and (max-width: #{$i}px) and (min-width: $i - 100px) {
             html {
                 max-width: $width-percentage * 1%;
@@ -70,11 +74,13 @@ $max-handle-width: 12000px;
         width: 100%;
         margin: auto;
     }
+
     .mw {
         width: 100%;
         max-width: unset !important;
         margin: auto;
     }
+
     #bcenter {
         width: 0px;
     }
