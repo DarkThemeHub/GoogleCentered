@@ -4,8 +4,6 @@
 
 # Google Centered
 
-Hey! Try this with [Google Dark Theme](https://github.com/DarkThemeHub/GoogleDarkTheme)!
-
 Support us by hitting that Star and showing your friends :P
 
 [Join the discord](https://discord.gg/pSs9YYn) to stay up to date with releases and submit other suggestions
