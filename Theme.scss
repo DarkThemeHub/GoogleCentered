@@ -29,6 +29,8 @@ $maxWidth: 80;
 
 $max-handle-width: 12000px;
 
+
+
 /* center page */
 @media only screen and (max-width: $max-handle-width) and (min-width: #{$max-screen-size}px) {
     html {
@@ -40,8 +42,8 @@ $max-handle-width: 12000px;
     }
 }
 
-@while $i >= $min-screen-size {
-    @if ($i <= 2000) {
+@while $i>=$min-screen-size {
+    @if ($i <=2000) {
         $i-T-Param: getNormalizedVal($i, $min-screen-size, 2000);
         $width-percentage: getValInRange(80, 80, $i-T-Param);
 
@@ -54,7 +56,9 @@ $max-handle-width: 12000px;
                 width: $width-percentage * 1vw;
             }
         }
-    } @else if $i <= $max-screen-size {
+    }
+
+    @else if $i <=$max-screen-size {
         $i-T-Param: getNormalizedVal($i, 2000, $max-screen-size);
 
         $width-percentage: getValInRange(65, 50, $i-T-Param);
@@ -89,23 +93,18 @@ $max-handle-width: 12000px;
         width: 0px;
     }
 
-    div#rcnt {
-        width: 100%;
-        display: grid;
-        grid-template-columns: auto 55% 0 35% auto;
-    }
-
-    div#rhs {
-        margin: unset !important;
-        width: 100%;
-    }
-
-    #center_col {
-        width: 100%;
-        margin: unset !important;
-    }
-
     .kno-ftr {
         margin-right: 0px;
     }
+}
+
+div#rcnt {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+div#rhs {
+    margin: unset !important;
+    width: 100%;
 }
