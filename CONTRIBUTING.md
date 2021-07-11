@@ -17,6 +17,13 @@
 * Don't commit with more than a single element change. This means if your PR consist of changes to 10 different elements, each of them should have their own commit, totaling to 10 commits.
 * Each commit should have a precise title explaining what was changed, with a description of why it was changed if the title isn't informative enough.
 * Your contribution may not be accepted if the reviewer deems so. Keeping it minimal ensures you dont waste a lot of time! If you think your change could have a chance of being declined, submit an issue instead!
-* Most important of all, please follow the guidelines and feedback from reviewers to ensure we dont waste eachothers time! :)
+* Most important of all, please follow the guidelines and feedback from reviewers to ensure we dont waste eachothers time! 😉
 
 [What a good PR looks like](https://github.com/DarkThemeHub/GithubDarkTheme/pull/126)
+
+### How to dev
+1. cd to project root then 
+2. `npm install`
+3. `npm start`
+
+npm start will monitor Theme.scss file for changes. When a change is detected, it will compile a css version to CssOutput folder then invokes GenerateThemeTestFiles.py to generate a test file for you to paste into your browser, this will be located in the root Generated folder.
