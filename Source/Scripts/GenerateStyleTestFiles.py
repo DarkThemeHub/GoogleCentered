@@ -16,7 +16,6 @@ else:
 sourceDir = baseDir + "Source/"
 
 # empty generated Folder
-shutil.rmtree(baseDir + "Generated", ignore_errors=True)
 os.makedirs(baseDir + "Generated", exist_ok=True)
 
 
@@ -32,7 +31,7 @@ stylusFile = re.sub("<Version>", newVersion, stylusFile)
 stylusFile = re.sub("<ThemeName>", themeName, stylusFile)
 stylusFile = re.sub("<Url_Regex>", urlRegex, stylusFile)
 stylusFile = re.sub("<Style>", themeCss, stylusFile)
-f = open(baseDir + "Generated/github.user.styl", "w")
+f = open(baseDir + "Generated/Test-github.user.styl", "w")
 
 f.writelines(stylusFile)
 f.close
@@ -49,7 +48,7 @@ userScriptFile = re.sub("<Version>", newVersion, userScriptFile)
 userScriptFile = re.sub("<ThemeName>", "Test-" + themeName, userScriptFile)
 userScriptFile = re.sub("<Url_Regex>", urlRegex, userScriptFile)
 userScriptFile = re.sub("<Style>", userScriptStyle, userScriptFile)
-f = open(baseDir + "Generated/github.user.js", "w")
+f = open(baseDir + "Generated/Test-github.user.js", "w")
 
 f.writelines(userScriptFile)
 f.close
