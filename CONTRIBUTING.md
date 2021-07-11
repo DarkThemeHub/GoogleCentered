@@ -21,11 +21,12 @@
 
 [What a good PR looks like](https://github.com/DarkThemeHub/GithubDarkTheme/pull/126)
 
-### How to dev
-# Requirements
+## Dev
+### Requirements
 * NPM
 * Python 3.9
 
+### Dev process
 1. cd to project root
 2. `npm install`
 3. `npm start`
