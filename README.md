@@ -1,7 +1,7 @@
 [![image](https://img.shields.io/github/v/release/Darkthemehub/GoogleCentered?style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/releases/latest)
 [![image](https://img.shields.io/github/release-date/Darkthemehub/GoogleCentered?color=%23DD7A00&label=Last%20updated&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/releases)
-[![image](https://img.shields.io/github/size/Darkthemehub/GoogleCentered/Generated/github.user.styl?color=purple&label=Theme%20size&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/blob/master/Generated/github.user.styl)
-
+[![image](https://img.shields.io/github/size/Darkthemehub/GoogleCentered/Generated/github.user.styl?color=purple&label=Stylus%20Theme%20size&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/blob/master/Generated/github.user.styl)
+[![image](https://img.shields.io/github/size/Darkthemehub/GoogleCentered/Generated/github.user.js?color=purple&label=UserScript%20Theme%20size&style=flat-square)](https://github.com/DarkThemeHub/GoogleCentered/blob/master/Generated/github.user.js)
 # Google Centered
 
 Support us by hitting that Star and showing your friends :P
