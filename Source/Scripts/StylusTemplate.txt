@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name         <ThemeName>
+@namespace    github.com/DarkThemeHub/GoogleCentered
+@version      <Version>
+@description  Google Search Engine Centered For Big Screens.
+@author       DarkThemeHub
+@homepageURL  https://github.com/DarkThemeHub/GoogleCentered
+@supportURL   https://github.com/DarkThemeHub/GoogleCentered/issues
+@updateURL    https://raw.githubusercontent.com/DarkThemeHub/GoogleCentered/master/Generated/github.user.styl
+==/UserStyle== */
+
+@-moz-document regexp("<Url_Regex>") {
+<Style>
+}
