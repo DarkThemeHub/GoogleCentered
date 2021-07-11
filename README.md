@@ -12,23 +12,30 @@ Support us by hitting that Star and showing your friends :P
 
 [Regex Test](https://regex101.com/r/4QIe2c/2)
 
+#### Tested On following screen resolutions
+ * 1080p
+ * 1440p
+
 <hr>
 
 ## Install the theme
 
-##### Step 1 (if not already installed Stylus browser extension)
+### User Script 
+#### Seizure Warning! This can be a little slow sometimes, so might see the theme flash in after the page has loaded already. I recommend using Stylus.
+##### Compatible with [ViolentMonkey](https://violentmonkey.github.io/)
+> [![image](https://img.shields.io/badge/Install/Update%20directly%20with-UserScript-116b59.svg?longCache=true&amp;style=for-the-badge)](https://raw.githubusercontent.com/DarkThemeHub/GoogleCentered/master/Generated/github.user.js)
 
-[![image](https://img.shields.io/badge/Install-Stylus%20Chrome%20Extension-116b59.svg?longCache=true&style=for-the-badge)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/)
+### Stylus browser extension (Recommended)
+> ##### Step 1 (if not already installed Stylus browser extension)
 
-[![image](https://img.shields.io/badge/Install-Stylus%20Firefox%20Extension-116b59.svg?longCache=true&style=for-the-badge)](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)
+> [![image](https://img.shields.io/badge/Install-Stylus%20Chrome%20Extension-116b59.svg?longCache=true&style=for-the-badge)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/)
 
-##### Step 2
+> [![image](https://img.shields.io/badge/Install-Stylus%20Firefox%20Extension-116b59.svg?longCache=true&style=for-the-badge)](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)
 
-[![image](https://img.shields.io/badge/Install/Update%20directly%20with-Stylus-116b59.svg?longCache=true&style=for-the-badge)](https://raw.githubusercontent.com/DarkThemeHub/GoogleCentered/master/Generated/github.user.styl)
+> ##### Step 2
 
-#### Tested On following screen resolutions
- * 1080p
- * 1440p
+> [![image](https://img.shields.io/badge/Install/Update%20directly%20with-Stylus-116b59.svg?longCache=true&style=for-the-badge)](https://raw.githubusercontent.com/DarkThemeHub/GoogleCentered/master/Generated/github.user.styl)
+
 
 <hr>
 

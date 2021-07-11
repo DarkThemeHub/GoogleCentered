@@ -1,0 +1,169 @@
+// ==UserScript==
+// @name		GoogleCentered();
+// @namespace	github.com/DarkThemeHub/GoogleCentered
+// @version		1.5.0
+// @description	Google Search Engine Centered For Big Screens.
+// @author		DarkThemeHub
+// @homepage	https://github.com/DarkThemeHub/GoogleCentered
+// @supportURL	https://github.com/DarkThemeHub/GoogleCentered/issues
+// @updateURL   https://raw.githubusercontent.com/DarkThemeHub/GoogleCentered/master/Generated/github.user.js
+// @run-at	document-start
+// ==/UserScript==
+(function() {var css = "";
+if (false || (new RegExp("^https?:\/\/www\.google((\..{1,3}){1,2})\/(search\?)(?!flights|maps)(?!.*&tbm=(shop|fin|lcl)&).*")).test(document.location.href))
+	css += [
+		"html {",
+		"  margin: auto; }",
+		"",
+		".islrc,",
+		".D6j0vc {",
+		"  width: 100% !important; }",
+		"",
+		".mJVYJe {",
+		"  margin-right: 30px !important; }",
+		"",
+		"/* center page */",
+		"@media only screen and (max-width: 12000px) and (min-width: 3200px) {",
+		"  html {",
+		"    max-width: 50%; }",
+		"  #searchform {",
+		"    width: 50vw; } }",
+		"",
+		"@media only screen and (max-width: 3200px) and (min-width: 3100px) {",
+		"  html {",
+		"    max-width: 50%; }",
+		"  #searchform {",
+		"    width: 50vw; } }",
+		"",
+		"@media only screen and (max-width: 3100px) and (min-width: 3000px) {",
+		"  html {",
+		"    max-width: 51.25%; }",
+		"  #searchform {",
+		"    width: 51.25vw; } }",
+		"",
+		"@media only screen and (max-width: 3000px) and (min-width: 2900px) {",
+		"  html {",
+		"    max-width: 52.5%; }",
+		"  #searchform {",
+		"    width: 52.5vw; } }",
+		"",
+		"@media only screen and (max-width: 2900px) and (min-width: 2800px) {",
+		"  html {",
+		"    max-width: 53.75%; }",
+		"  #searchform {",
+		"    width: 53.75vw; } }",
+		"",
+		"@media only screen and (max-width: 2800px) and (min-width: 2700px) {",
+		"  html {",
+		"    max-width: 55%; }",
+		"  #searchform {",
+		"    width: 55vw; } }",
+		"",
+		"@media only screen and (max-width: 2700px) and (min-width: 2600px) {",
+		"  html {",
+		"    max-width: 56.25%; }",
+		"  #searchform {",
+		"    width: 56.25vw; } }",
+		"",
+		"@media only screen and (max-width: 2600px) and (min-width: 2500px) {",
+		"  html {",
+		"    max-width: 57.5%; }",
+		"  #searchform {",
+		"    width: 57.5vw; } }",
+		"",
+		"@media only screen and (max-width: 2500px) and (min-width: 2400px) {",
+		"  html {",
+		"    max-width: 58.75%; }",
+		"  #searchform {",
+		"    width: 58.75vw; } }",
+		"",
+		"@media only screen and (max-width: 2400px) and (min-width: 2300px) {",
+		"  html {",
+		"    max-width: 60%; }",
+		"  #searchform {",
+		"    width: 60vw; } }",
+		"",
+		"@media only screen and (max-width: 2300px) and (min-width: 2200px) {",
+		"  html {",
+		"    max-width: 61.25%; }",
+		"  #searchform {",
+		"    width: 61.25vw; } }",
+		"",
+		"@media only screen and (max-width: 2200px) and (min-width: 2100px) {",
+		"  html {",
+		"    max-width: 62.5%; }",
+		"  #searchform {",
+		"    width: 62.5vw; } }",
+		"",
+		"@media only screen and (max-width: 2100px) and (min-width: 2000px) {",
+		"  html {",
+		"    max-width: 63.75%; }",
+		"  #searchform {",
+		"    width: 63.75vw; } }",
+		"",
+		"@media only screen and (max-width: 2000px) and (min-width: 1900px) {",
+		"  html {",
+		"    max-width: 80%; }",
+		"  #searchform {",
+		"    width: 80vw; } }",
+		"",
+		"@media only screen and (max-width: 1900px) and (min-width: 1800px) {",
+		"  html {",
+		"    max-width: 80%; }",
+		"  #searchform {",
+		"    width: 80vw; } }",
+		"",
+		"@media only screen and (max-width: 1800px) and (min-width: 1700px) {",
+		"  html {",
+		"    max-width: 80%; }",
+		"  #searchform {",
+		"    width: 80vw; } }",
+		"",
+		"@media only screen and (max-width: 1700px) and (min-width: 1600px) {",
+		"  html {",
+		"    max-width: 80%; }",
+		"  #searchform {",
+		"    width: 80vw; } }",
+		"",
+		"@media only screen and (max-width: 12000px) and (min-width: 1700px) {",
+		"  #cnt {",
+		"    width: 100%;",
+		"    margin: auto; }",
+		"  .mw {",
+		"    width: 100%;",
+		"    max-width: unset !important;",
+		"    margin: auto; }",
+		"  #bcenter {",
+		"    width: 0px; }",
+		"  .kno-ftr {",
+		"    margin-right: 0px; } }",
+		"",
+		"div#rcnt {",
+		"  width: 100%;",
+		"  display: grid;",
+		"  grid-template-columns: 70% 30%; }",
+		"",
+		"div#rhs {",
+		"  margin: unset !important;",
+		"  width: 100%; }",
+
+	].join("\n");
+if (typeof GM_addStyle != "undefined") {
+	GM_addStyle(css);
+} else if (typeof PRO_addStyle != "undefined") {
+	PRO_addStyle(css);
+} else if (typeof addStyle != "undefined") {
+	addStyle(css);
+} else {
+	var node = document.createElement("style");
+	node.type = "text/css";
+	node.appendChild(document.createTextNode(css));
+	var heads = document.getElementsByTagName("head");
+	if (heads.length > 0) {
+		heads[0].appendChild(node);
+	} else {
+		// no head yet, stick it whereever
+		document.documentElement.appendChild(node);
+	}
+}
+})();
